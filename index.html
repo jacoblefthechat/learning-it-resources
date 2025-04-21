@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning IT Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <input type="text" id="searchBox" placeholder="Search resources...">
+  </nav>
+
+  <header>
+    <h1>Learning IT Resources</h1>
+    <p>A curated collection of learning resources in IT</p>
+  </header>
+
+  <main>
+    <section id="networking">
+      <h2>Networking</h2>
+      <div class="card-grid">
+        <div class="card">
+          <a href="#">Practical Networking</a>
+          <p>Learn networking concepts step by step.</p>
+        </div>
+        <div class="card">
+          <a href="#">NetDevOps</a>
+          <p>Automating networking and infrastructure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cybersecurity">
+      <h2>Cybersecurity</h2>
+      <div class="card-grid">
+        <div class="card">
+          <a href="https://tryhackme.com">TryHackMe</a>
+          <p>Hands-on cybersecurity training platform.</p>
+        </div>
+        <div class="card">
+          <a href="#">OWASP</a>
+          <p>Open Web Application Security Project resources.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="programming">
+      <h2>Programming</h2>
+      <div class="card-grid">
+        <div class="card">
+          <a href="#">FreeCodeCamp</a>
+          <p>Learn web development for free.</p>
+        </div>
+        <div class="card">
+          <a href="#">Real Python</a>
+          <p>Python tutorials for beginners to advanced.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="subscribe">
+    <h2>Subscribe for new updates</h2>
+    <p>Want to receive updates when new IT learning resources are added? Enter your email below:</p>
+    <form action="https://formspree.io/f/xnndapvw" method="POST" class="subscribe-form">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <textarea name="message" placeholder="Optional message..." rows="3"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  
+  
+</body>
+</html>
